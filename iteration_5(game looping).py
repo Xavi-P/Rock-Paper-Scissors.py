@@ -12,7 +12,6 @@ def get_user_choice(decision):
 
 def get_computer_choice():
   choises = ["rock", "paper", "scissors"]
-  # to test
   commputer_rand_choise=random.choice(choises)
   return commputer_rand_choise
 
@@ -21,8 +20,7 @@ def get_computer_choice():
 
 
 def results(player_hand,computer_hand):
-  # if player_hand=="rock":
-  #   print("fart")
+
   if player_hand==computer_hand:
     print("it a tie")
   elif player_hand=="rock" and computer_hand=="paper" or player_hand=="paper" and computer_hand=="scissors" or player_hand=="scissors" and computer_hand=="rock":
