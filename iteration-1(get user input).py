@@ -8,5 +8,4 @@ def get_user_choice(decision):
 
   
 decision=get_user_choice(decision)
-# to test
-print(decision)
+
